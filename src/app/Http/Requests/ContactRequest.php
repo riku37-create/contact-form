@@ -31,7 +31,7 @@ class ContactRequest extends FormRequest
     }
 
 
-    public function message()
+    public function messages()
     {
         return [
             'name.required' => '名前を入力してください',
